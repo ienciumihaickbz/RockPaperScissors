@@ -37,3 +37,7 @@
     width: 500px;
     grid-template-rows: 40px 200px;
 }
+
+@media only screen and (max-width: 320px) {
+    
+}

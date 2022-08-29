@@ -49,3 +49,25 @@
     text-decoration: none;
     color: white;
 }
+
+@media only screen and (max-width: 350px) {
+    .header {
+        font-size: 8px; 
+    }
+    
+    .header-game {
+        font-size: 8px;
+    }
+
+    .home-button {
+        font-size: 10px;
+    }
+
+    .middle-section {
+        font-size: 12px;
+    }
+
+    .right-section {
+        font-size: 8px;
+    }
+}
