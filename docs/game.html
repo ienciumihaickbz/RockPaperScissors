@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Rock Paper Scissors</title>
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" 
+        rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header class="header-game">
+            <div class="left-section">
+                <button class="home-button" id="home-button" onclick="sendHome()">
+                    To main page
+                </button>
+            </div>
+            <div class="middle-section">
+                Rock Paper Scissors
+            </div>
+            <div class="right-section">
+                Created by <a href="https://github.com/ienciumihaickbz"
+                text-decoration=none target="_blank" class="github-link">ckbz</a>
+            </div>
+        </header>
+
+        <div class="selections">
+            <button class="selection" data-selection="rock">
+                ✊
+            </button>
+            <button class="selection" data-selection="paper">
+                ✋
+            </button>
+            <button class="selection" data-selection="scissors">
+                ✌
+            </button>
+        </div>
+        <div class="results">
+            <div>
+                Player
+                <span class="result-score" data-your-score>
+                    0
+                </span>
+            </div>
+
+            <div data-final-column>
+                Computer
+                <span class="result-score" data-com-score>
+                    0
+                </span>
+            </div>
+            <div class="result-selections">
+                
+            </div>
+        </div>
+    /body>
+</html>
