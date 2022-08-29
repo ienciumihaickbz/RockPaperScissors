@@ -1,0 +1,39 @@
+.user-main {
+    position: relative;
+    font-family: Poppins;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.start-button {
+    position: absolute;
+    height: 50px;
+    font-family: Poppins;
+    background-color: rgb(214, 139, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+    margin-top: 250px;
+}
+
+.start-button:hover {
+    cursor: pointer;
+    background-color: rgb(202, 133, 5);
+}
+
+.start-button:active {
+    background-color: rgb(172, 113, 3);
+}
+
+.tutorial {
+    display: grid;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    grid-template-rows: 40px 200px;
+}
