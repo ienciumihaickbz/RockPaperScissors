@@ -37,8 +37,6 @@
 
 .middle-section {
     font-size: 22px;
-    border-left: 2px solid rgb(255, 166, 0);
-    border-right: 2px solid rgb(255, 166, 0);
 }
 
 .right-section {
@@ -50,7 +48,7 @@
     color: white;
 }
 
-@media only screen and (max-width: 350px) {
+@media (max-width: 600px) {
     .header {
         font-size: 8px; 
     }
